@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using System;
 using OpenQA.Selenium.Firefox;
 
@@ -20,8 +20,6 @@ namespace SeleniumTestTool
             driver.FindElement(By.XPath(".//*[@id='contentListing']/div/div/div[2]/div[5]/a[2]")).Click();
             driver.FindElement(By.XPath(".//*[@id='p-434348820']/div[1]/a")).Click();
             driver.FindElement(By.ClassName("addBasketUnify")).Click();
-
-         
         }
     }
 }
